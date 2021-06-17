@@ -1,0 +1,11 @@
+.box{
+    width:400px;
+    height:200px;
+    border:2px solid paleturquoise;
+    overflow: scroll;
+}
+.box2{
+    width:400px;
+    height:300px;
+    border:2px solid rgb(197, 38, 38);
+}

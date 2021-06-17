@@ -4,16 +4,33 @@ nav{
     line-height: 30px;
     font-size: 30px;
 }
-nav ul li{
-    list-style-type: none;
-    float: left;
-    padding:10px}
-nav ul li a{
+ nav ul li{
+    list-style: none;
+    padding:10px;
+}
+ nav ul li a{
     text-decoration: none;
     color:black;
 }
-nav li:hover{
-    background-color: lightsteelblue;
+a:hover{
+    color:#fff;
+}
+nav >ul>li{
+    float:left;
+}
+ nav ul li:hover{
+    background-color: rgb(91, 133, 189);
     color:linen;
 }
-nav
+.dropdown{
+    display:none;
+    padding: 0;
+    margin: 0;
+    background-color:lightgray;
+    line-height: 30px;
+    font-size: 30px;
+    position: absolute;
+}
+nav >ul >li:hover ul{
+    display:block;
+}

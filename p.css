@@ -1,11 +1,29 @@
-.box{
+.overflow{
     width:400px;
     height:200px;
     border:2px solid paleturquoise;
     overflow: scroll;
 }
-.box2{
-    width:400px;
-    height:300px;
-    border:2px solid rgb(197, 38, 38);
+.box{
+    width:100px;
+    height:100px;
+    border:1px solid rgb(17, 0, 255)
+}
+.outer{
+    background: rgb(255, 0, 0);
+}
+.inner{
+    background-color: rgb(92, 255, 16);
+    transform: rotate(30deg) scale(0.50);
+}
+.box1{
+    width: 100px;
+    height:100px;
+    border:px solid rgb(255, 0, 0);
+    background-color: #0717fd;
+    transition: background-color ,width 6  s ease-in 1s;
+}
+.box1:hover{
+    background-color: rgb(202, 29, 29);
+    width:300px;
 }
